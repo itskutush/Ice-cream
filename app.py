@@ -3,7 +3,9 @@ import numpy as np
 from flask import Flask,render_template,request
 
 app = Flask(__name__)
-model= pickle.load(open('model.pkl','rb'))
+model_path = 'model.pkl'
+with open(model_path, 'rb') as file:
+    model = pickle.load(file)
 
 app.static_folder = 'static'
 #url
