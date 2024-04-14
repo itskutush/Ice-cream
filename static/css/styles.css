@@ -1,12 +1,12 @@
 body {
-    /* Set background image */
-    background-image: url("../images/backgroundimg.jpg"); /* Replace 'background.jpg' with the path to your image */
-    /* Specify background properties */
+    background-image: url("../images/backgroundimg.jpg"); 
+    
     background-repeat: no-repeat;
-    background-size: cover; /* Cover the entire background */
-    /* Optional: Add more styles */
-    /* For example: */
-    /* color: white; */
+    background-size: cover; 
+    
+}
+html, body {
+    height: 100%;
 }
 
 /* Style for the footer */
