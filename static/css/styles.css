@@ -1,0 +1,19 @@
+body {
+    /* Set background image */
+    background-image: url("../images/backgroundimg.jpg"); /* Replace 'background.jpg' with the path to your image */
+    /* Specify background properties */
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire background */
+    /* Optional: Add more styles */
+    /* For example: */
+    /* color: white; */
+}
+
+/* Style for the footer */
+.footer {
+    position: fixed;
+    bottom: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    color: #79BCB8;
+    font-size: 14px;
+}

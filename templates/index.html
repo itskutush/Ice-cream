@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Shop by Srijoni!</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <form action="/predict" method="post">
+        <h1>Ice Cream Shop Revenue</h1>
+        <input type='text' name='temperature' placeholder="Enter temperature"></input>
+        <button type="submit">Predict</button>
+        <div class="footer">Page created by Srijoni</div>
+    </form>
+    <h3 style="color:#377771"><br>{{prediction_text}}</h3>
+    
+</body>
+</html>
