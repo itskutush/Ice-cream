@@ -6,6 +6,7 @@ Libraries used : pandas , numpy,scikit-learn
 Error metrics used : 
 r2 Score : 0.9852624019962258
 
+The ml model is then integrated into a website.
 
 
 
